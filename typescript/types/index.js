@@ -1,0 +1,14 @@
+var isDone = false;
+var age = 20;
+var binaryNumber = 15;
+var firstName = 'viking';
+var message = "Hello, " + firstName + ", age is " + age;
+var u = undefined;
+var n = null;
+var notSure = 4; // 任何类型
+notSure = true; // ok
+var num = null; // ok  null与undefined 是其它类型的子类型
+var str = undefined; // ok
+var numberOrStr = 234; // 组合类型
+numberOrStr = 'hello';
+var arrOfNumbers = [1, 2, 'str', 4]; // error;
